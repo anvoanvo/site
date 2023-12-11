@@ -24,7 +24,8 @@ export default function Home() {
             </span>
           </h2>
           <p className={` m-0 max-w-[30ch] text-sm opacity-50`}>
-            저의 github주소 입니다.
+            저의 github주소 입니다. 현재까지 진행한 프로젝트들을 확인하실 수
+            있습니다.
           </p>
         </a>
 
@@ -63,7 +64,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://github.com/anvoanvo?tab=repositories"
+          href="https://github.com/JunHyeokShin/ggwp"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -75,7 +76,8 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            현재 진행중인 프로젝트에 관한 이야기입니다.
+            현재 진행중인 프로젝트에 관한 이야기입니다. 프로젝트에 따라
+            업데이트하겠습니다.
           </p>
         </a>
       </div>

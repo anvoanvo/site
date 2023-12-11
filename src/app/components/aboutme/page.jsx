@@ -1,5 +1,8 @@
+'use client'
+
 import Link from 'next/link'
 import React from 'react'
+import YouTube from 'react-youtube'
 
 const aboutme = () => {
   return (
@@ -37,9 +40,10 @@ const aboutme = () => {
         <a className="text-xl text-red-800 font-bold">Projects</a>
         <p>
           팀프로젝트(김승언,유혁준,신준혁,박서진) 진행중이거나 마친 게임의
-          전적을 검색하는 웹사이트를 제작중입니다. 진행률을 확인하시려면
+          전적을 검색하는 웹사이트를 제작했습니다. 진행률을 확인하시려면
           홈페이지에서 projects 탭을 클릭해주세요.
         </p>
+        <YouTube videoId="RJ1ita6JrMo" />
       </div>
     </>
   )
